@@ -1,10 +1,13 @@
 install:
 	npm install
-start:
-	npm run babel-node -- src/bin/rss-reader.js
+develop:
+	npx webpack-dev-server
 publish:
 	npm publish
+build:
+	rm -rf dist
+	NODE_ENV=production npm run webpack
 lint:
-	npm run eslint .
+	npx eslint .
 test:
 	npm test
