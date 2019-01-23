@@ -13,7 +13,7 @@
     "eslint": "eslint",
     "webpack": "webpack",
     "webpack-dev-server": "webpack-dev-server --open",
-    "test": "npx eslint ."
+    "test": "jest"
   },
   "author": "Nikiforova Margarita",
   "license": "ISC",
